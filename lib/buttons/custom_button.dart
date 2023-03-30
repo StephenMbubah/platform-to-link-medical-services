@@ -82,7 +82,7 @@ TextField reuseableTextField(String text, IconData icon,bool isPasswordType, Tex
           color: Colors.black54
       ),
       labelText: text,
-      labelStyle: TextStyle(color: Colors.black54.withOpacity(0.9)),
+      labelStyle: TextStyle(color: Colors.black87.withOpacity(0.9), fontSize: 18),
       filled: true,
       floatingLabelBehavior:FloatingLabelBehavior.never,
       fillColor: Colors.white.withOpacity(0.3),

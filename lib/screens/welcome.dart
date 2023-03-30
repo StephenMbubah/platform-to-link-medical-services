@@ -25,7 +25,7 @@ class WelcomeScreen extends StatelessWidget {
                   color: Colors.white,
                 ),
                 child: Image.asset(
-                  'assets/images/heartsethoscope.png',
+                  'assets/images/heartsethoscope.png ',
                   height: 280,
                 ),
               ),

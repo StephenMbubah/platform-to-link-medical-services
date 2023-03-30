@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:medical_linkup/buttons/custom_button.dart';
+import 'package:medical_linkup/screens/signup_patient.dart';
 
 class LoginPatient extends StatefulWidget {
   const LoginPatient({Key? key}) : super(key: key);
@@ -57,7 +58,8 @@ class _LoginPatientState extends State<LoginPatient> {
                   ),
                   GestureDetector(
                       onTap: (){
-                        //Navigator.push(context, MaterialPageRoute(builder: (context)=> ));
+                        print("signing up");
+                        Navigator.push(context, MaterialPageRoute(builder: (context)=> PatientSignUpScreen()));
                       },
                       child:const  Text("Sign up", style: TextStyle(color: Colors.red, fontSize: 20),))
                 ],
